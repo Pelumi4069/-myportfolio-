@@ -30,9 +30,9 @@ const About = () => {
 </p>
   
           </div>
-          {/* <Link to="/contact"> */}
+          <a href="https://wa.me//+2348141955360"  target="_blank" rel="noopener noreferrer">
           <button className='bg-highligh hover:bg-tertiary transition-all p-4 rounded font-bold'>Contact me</button>
-          {/* </Link> */}
+          </a>
         </div>
 
       </div>
