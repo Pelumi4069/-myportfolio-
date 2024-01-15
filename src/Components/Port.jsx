@@ -11,6 +11,7 @@ const projects = [
     title: 'Movie Box',
     description: '...',
     image: [Movie], 
+    link: "https://movie-box-three-ashen.vercel.app/",
   },
   {
     id: 2,
@@ -48,16 +49,19 @@ const Projects = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 py-10">
           {projects.map((project) => (
             <div key={project.id} className="bg-gray-300 p-6 rounded-md">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
                 className="object-cover h-40 w-full mb-4 rounded-md"
                 src={project.image}
                 alt={project.title}
               />
+              </a>
               <h2 className="text-lg font-bold mb-2">{project.title}</h2>
               <p className="text-sm">{project.description}</p>
             </div>
           ))}
         </div>
+        
             </div>
 
         </div>

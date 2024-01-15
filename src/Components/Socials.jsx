@@ -21,7 +21,7 @@ const Socials = () => {
         <a href="https://twitter.com/your-twitter-profile" target="_blank" rel="noopener noreferrer">
           <img src={Twitter} alt="Twitter" className='p-5 bg-highligh lg:w-20 lg:h-30 rounded-3xl sm:w-20 sm:h-25 w-20 h-18' />
         </a>
-        <a href="mailto:your.email@example.com">
+        <a href="https://wa.me//+2348141955360"  target="_blank" rel="noopener noreferrer">
           <img src={Email} alt="Email" className='p-5 bg-highligh lg:w-20 lg:h-30 rounded-3xl sm:w-20 sm:h-25 w-20 h-18' />
         </a>
       </div>
@@ -30,3 +30,4 @@ const Socials = () => {
 }
 
 export default Socials;
+
